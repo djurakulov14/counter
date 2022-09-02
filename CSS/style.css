@@ -1,0 +1,430 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+    font-family: "SF Pro Display";  
+}
+hr{
+    border-bottom: none;
+    border: 0.1px #E8E8ED solid;
+}
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    margin-bottom: 20px;
+}
+.links{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    color: #D6D6D6;
+    font-size: 12px;
+}
+.contener{
+    width: 1000px;
+    margin: 0 auto;
+}
+.under-header{
+    margin: 0 auto;
+    width: 1000px;
+    height: 75px;
+    background-color: #F5F5F7;
+    padding: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.qwerty{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.qwerty a{
+    margin-top: 5px;
+    color: blue;
+}
+.qwerty2{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.qwerty2 img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.buy span{
+    font-size: 17px;
+    color: #C45614;
+}
+.buy p{
+    font-size: 48px;
+    font-weight: 600;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-bot {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+}
+.header-left a{
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+}
+.header-right {
+    font-size: 17px;
+    font-weight: 500;
+}
+.header-bot-left{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-mid{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 5px;
+}
+.header-bot-left img{
+    margin:0 5px;
+}
+.header-bot-mid img{
+    margin:0 5px;
+}
+.header-bot-right img{
+    margin:0 5px;
+}
+.bot {
+    display: flex;
+    margin-top: 80px;
+}
+.model{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.model p {
+    color: #6E6E73;
+}
+.model span {
+    color: black;
+}
+.ip13pro{
+    border-radius: 15px;
+    width: 340px;
+    height: 100px;
+    border:#E8E8ED 2px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.ip13pro:hover{
+border:blue 2px solid;
+}
+.left p {
+    font-size: 17px;
+    font-weight: 600;
+}
+.left span {
+    font-size: 12px;
+}
+.right{
+    font-size: 12px;
+    text-align: right;
+    line-height: 16px;
+}
+.color{
+    margin-top:200px;
+}
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.choose{
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+}
+.btns img{
+    width: 32px;
+    height: 32px;
+}
+.btns button{
+    border-radius: 100px;
+    border:#E8E8ED  2px solid;
+    overflow: hidden;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    transition: 200ms;
+}
+.btns{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+.btns button:hover{
+    border:blue  2px solid;
+}
+
+.photo1{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-alpinegreen?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1655144177553);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+
+}
+.photo2{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-silver?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897428563);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+
+}
+.photo3{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-gold?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897336104);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+
+}
+.photo4{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-finish-select-202207-6-7inch-graphite?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1654897380792);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+
+}
+.photo5{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-storage-select-202207-6-7inch-sierrablue?wid=2560&hei=1440&fmt=jpeg&qlt=95&.v=1655144562421);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+
+}
+.photo{
+    position: sticky;
+    top: 150px;
+    left: 100px;
+    width: 1230px;
+    height: 670px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-pro-model-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=95&.v=1654897043425);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-right: 60px;
+    transition: 200ms;
+}
+.background{
+    display: none;
+    height: 200%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    z-index: 9;
+}
+
+.modal{
+    position: relative;
+    z-index: 10;
+    top: 40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 816px;
+    background-color: #6E6E73;
+    max-height: fit-content;
+    /* padding: 30px 60px; */
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.text{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.text p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1D1D1f;
+
+}
+.knopki{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.knopki button{
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.modal select{
+    width: 500px;
+    height: 50px;
+    margin-left: 130px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.ne-ebu{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.head{
+    height: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    border-bottom: #D6D6D6 1px solid;
+}
+.head2{
+    height: 50px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    border-bottom: #D6D6D6 1px solid;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.info{
+    background-color: #F5F5F7;
+    padding: 30px 90px;
+
+}
+.x{
+    margin: 20px;
+}
+.text-info{
+    font-size: 12px;
+    color: #86868b;
+}
+.ip-info{
+    height: 200px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom:#D6D6D6 1px solid;
+    transition: 200ms;
+    margin-bottom: 20px;
+    display: none;
+}
+.ip-info2{
+    height: 200px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 600;
+    border-bottom:#D6D6D6 1px solid;
+    margin-bottom: 20px;
+    transition: 200ms;
+    display: none;
+}
+.disp-block{
+    display: block;
+    transition: 200ms;
+}
+.ip-info p{
+    margin-right: 100px;
+}
+.ip-right p{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.from p{
+    margin-bottom: 0;
+}
+.from span{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.price p{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.price span{
+    font-size: 12px;
+    font-weight: 400;
+}
